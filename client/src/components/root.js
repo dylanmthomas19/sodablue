@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './pages/home';
-import aboutUS from './pages/aboutUs';
+import aboutUs from './pages/aboutUs';
 import Contact from './pages/contact';
 import faq from './pages/faq';
 import Navtabs from './navtabs';
@@ -14,8 +14,8 @@ class Root extends Component {
     }
     renderPage = () => {
         switch (this.state.currentPage) {
-            case "aboutUS":
-                return <aboutUS />
+            case "aboutUs":
+                return <aboutUs />
             case "Contact":
                 return <Contact />
             case "faq":

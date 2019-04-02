@@ -23,11 +23,36 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.nav {
+  background-color: rgba(0, 0, 0, 0.897);
+  color: aquamarine;
+}
+
+.Root{
+  width: 60%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: white;
+  border: 2%;
+  border-color: grey;
+}
+
+#ytIcon {
+  margin-top: 10px;
+  height: 24px;
+  width: 24px;
+}
+#fbIcon {
+  margin-top: 10px;
+  height: 24px;
+  width: 24px;
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

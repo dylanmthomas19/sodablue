@@ -1,4 +1,6 @@
 import React from "react";
+import yticon from "./assets/images/if_yt_icon.png";
+import fbicon from "./assets/images/if_fb_icon.png";
 
 const NavTabs = props => (
     <div>
@@ -43,6 +45,10 @@ const NavTabs = props => (
                     Contact
                 </a>
             </li>
+            <a> 
+                <img id="fbIcon" src={fbicon} alt="Facebook Link" />
+                <img id="ytIcon" src={yticon} alt="YouTube Link" />    
+             </a>
         </ul>
     </div>
 );
